@@ -1,0 +1,15 @@
+a=["mango","banana","grape"]
+print(a)
+a.append("cherry")
+print(a)
+print(type(a))
+a.insert(0,'straw')
+print(a)
+a.pop()
+del a[0:4]
+a.extend(["a","b","c"])
+a.remove("a")
+a.sort()
+print(a)
+a.sort(reverse=True)
+print(a)
